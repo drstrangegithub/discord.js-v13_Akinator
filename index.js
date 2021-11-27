@@ -24,7 +24,7 @@ const prefix = "aki."
 
 //Status
 client.on("ready", () => {
-  let statusList = [`${prefix}akinator`, `${prefix}help`];
+  let statusList = [`${prefix}akinator`, `Discord Tricks`];
     setInterval(function() {
   		let status = statusList[Math.floor(Math.random()*statusList.length)];
   		client.user.setActivity(status, {type: "LISTENING"});
